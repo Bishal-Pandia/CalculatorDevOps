@@ -55,6 +55,7 @@ public class Calculator {
 			default: System.out.println("Wrong choice of operator!!");
 			}		
 
+		scanner.close();
 		}while(true);
 	}
 
