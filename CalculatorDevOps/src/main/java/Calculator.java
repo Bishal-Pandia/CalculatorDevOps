@@ -14,24 +14,20 @@ public class Calculator {
 				+ "3.Multiplication\n"
 				+ "4.Division\n");
 		Calculator calculator = new Calculator();
-		Scanner scanner = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		double a, b;
 		do {
 			int choice;
 			double res;
-			try {
-				choice = scanner.nextInt();
-			} catch (InputMismatchException error) {
-				return;
-			}
-			try {
-				System.out.print("Enter the first number : ");
-				a = scanner.nextDouble();
-				System.out.print("Enter the second number : ");
-				b = scanner.nextDouble();
-			} catch (InputMismatchException error) {
-				return;
-			}
+
+			choice = sc.nextInt();
+
+
+			System.out.print("Enter the first number : ");
+			a = sc.nextDouble();
+			System.out.print("Enter the second number : ");
+			b = sc.nextDouble();
+
 
 			switch(choice)
 			{
@@ -55,7 +51,7 @@ public class Calculator {
 			default: System.out.println("Wrong choice of operator!!");
 			}		
 
-		scanner.close();
+			//		sc.close();
 		}while(true);
 	}
 

@@ -1,0 +1,55 @@
+pipeline {
+  environment {
+    registry = "bishalpandia/calculator_devops"
+    registryCredential = 'docker-hub-credentials'
+    dockerImage = ''
+    dockerImageLatest = ''
+  }
+  agent any
+  stages {
+    stage('Cloning Git') {
+      steps {
+        git branch: 'main', url: 'https://github.com/Bishal-Pandia/CalculatorDevOps.git'
+      }
+    }
+   
+    stage('Build'){
+        steps {
+            sh 'mvn -f /var/lib/jenkins/workspace/Pipeline_Script/CalculatorDevOps/pom.xml clean install'
+            
+         }
+            
+    }
+    
+    stage('Test'){
+        steps {
+             sh 'mvn -f /var/lib/jenkins/workspace/Pipeline_Script/CalculatorDevOps/pom.xml test'
+        }
+    }
+    stage('Building image') {
+      steps{
+        script {
+          dockerImage = docker.build registry -f /var/lib/jenkins/workspace/Pipeline_Script/CalculatorDevOps/Dockerfile + ":$BUILD_NUMBER"
+          dockerImageLatest = docker.build registry + ":latest"
+        }
+      }
+    }
+    stage('Deploy Image') {
+      steps{
+        script {
+          docker.withRegistry( '', registryCredential ) {
+            dockerImage.push()
+            dockerImageLatest.push()
+          }
+        }
+      }
+    }
+    stage('Remove Unused docker image') {
+      steps{
+        sh "docker rmi $registry:$BUILD_NUMBER"
+      }
+    }
+      
+  }
+    
+}
