@@ -29,7 +29,7 @@ pipeline {
     stage('Building image') {
       steps{
         script {
-          dockerImage = docker.build registry + ":$BUILD_NUMBER" "/var/lib/jenkins/workspace/Pipeline_Script/CalculatorDevOps" 
+          dockerImage = docker.build registry + ":$BUILD_NUMBER" "./CalculatorDevOps" 
           dockerImageLatest = docker.build registry + ":latest"
         }
       }
