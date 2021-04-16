@@ -7,7 +7,7 @@ public class Calculator {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println("Opening simple calculator...");
+		System.out.println("Opening simple calculator GUI...");
 		System.out.println("Which operation do you want to perform?");
 		System.out.println("1.Addition \n"
 				+ "2.Subtraction\n"

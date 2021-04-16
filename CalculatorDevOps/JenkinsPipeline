@@ -29,8 +29,9 @@ pipeline {
     stage('Building image') {
       steps{
         script {
-          dockerImage = docker.build registry + ":$BUILD_NUMBER" "./CalculatorDevOps" 
-          dockerImageLatest = docker.build registry + ":latest"
+          dockerfile = '/var/lib/jenkins/workspace/Pipeline_Script/CalculatorDevOps/Dockerfile'
+          dockerImage = docker.build(registry + ":$BUILD_NUMBER", "-f ${dockerfile} ./CalculatorDevOps")
+        //   dockerImageLatest = dockerImage + ":latest"
         }
       }
     }
@@ -38,8 +39,8 @@ pipeline {
       steps{
         script {
           docker.withRegistry( '', registryCredential ) {
-            dockerImage.push()
-            dockerImageLatest.push()
+            dockerImage.push('latest')
+            // dockerImageLatest.push()
           }
         }
       }
