@@ -1,0 +1,21 @@
+17/Apr/2021:11:12:24 028 [Calculator.java] [INFO] Calculator [addition called] - 2.0, 3.0
+17/Apr/2021:11:12:24 035 [Calculator.java] [INFO] Calculator [addition result] - 5.0
+17/Apr/2021:11:12:43 446 [Calculator.java] [INFO] Calculator [subtraction called] - 1.0, 2.0
+17/Apr/2021:11:12:43 448 [Calculator.java] [INFO] Calculator [subtraction result] - -1.0
+17/Apr/2021:11:12:55 669 [Calculator.java] [INFO] Calculator [multiplication called] - 2.0, 3.0
+17/Apr/2021:11:12:55 671 [Calculator.java] [INFO] Calculator [multiplication result] - 6.0
+17/Apr/2021:11:13:02 948 [Calculator.java] [INFO] Calculator [division called] - 4.0, 3.0
+17/Apr/2021:11:13:02 950 [Calculator.java] [INFO] Calculator [division result] - 1.3333333333333333
+17/Apr/2021:11:13:22 511 [Calculator.java] [INFO] Calculator [addition called] - 2.0, 4.0
+17/Apr/2021:11:13:22 512 [Calculator.java] [INFO] Calculator [addition result] - 6.0
+17/Apr/2021:11:13:32 779 [Calculator.java] [INFO] Calculator [division called] - 5.0, 6.0
+17/Apr/2021:11:13:32 781 [Calculator.java] [INFO] Calculator [division result] - 0.8333333333333334
+17/Apr/2021:11:13:40 531 [Calculator.java] [INFO] Calculator [multiplication called] - 6.0, 4.0
+17/Apr/2021:11:13:40 532 [Calculator.java] [INFO] Calculator [multiplication result] - 24.0
+17/Apr/2021:11:13:42 906 [Calculator.java] [INFO] Calculator [multiplication called] - 6.0, 5.0
+17/Apr/2021:11:13:42 906 [Calculator.java] [INFO] Calculator [multiplication result] - 30.0
+17/Apr/2021:11:13:50 464 [Calculator.java] [INFO] Calculator [subtraction called] - 5.0, 4.0
+17/Apr/2021:11:13:50 465 [Calculator.java] [INFO] Calculator [subtraction result] - 1.0
+17/Apr/2021:11:14:03 456 [Calculator.java] [INFO] Calculator [subtraction called] - 5.0, 5.0
+17/Apr/2021:11:14:03 456 [Calculator.java] [INFO] Calculator [subtraction result] - 0.0
+17/Apr/2021:11:14:13 600 [Calculator.java] [ERROR] Calculator Invalid input, Entered input is not a number
