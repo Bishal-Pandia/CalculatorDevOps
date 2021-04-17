@@ -19,3 +19,9 @@
 17/Apr/2021:11:14:03 456 [Calculator.java] [INFO] Calculator [subtraction called] - 5.0, 5.0
 17/Apr/2021:11:14:03 456 [Calculator.java] [INFO] Calculator [subtraction result] - 0.0
 17/Apr/2021:11:14:13 600 [Calculator.java] [ERROR] Calculator Invalid input, Entered input is not a number
+17/Apr/2021:22:40:32 125 [Calculator.java] [INFO] Calculator [addition called] - 2.0, 3.0
+17/Apr/2021:22:40:32 133 [Calculator.java] [INFO] Calculator [addition result] - 5.0
+17/Apr/2021:23:18:20 235 [Calculator.java] [INFO] Calculator [addition called] - 3.0, 4.0
+17/Apr/2021:23:18:20 240 [Calculator.java] [INFO] Calculator [addition result] - 7.0
+17/Apr/2021:23:18:22 900 [Calculator.java] [INFO] Calculator [subtraction called] - 3.0, 4.0
+17/Apr/2021:23:18:22 900 [Calculator.java] [INFO] Calculator [subtraction result] - -1.0
