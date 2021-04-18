@@ -145,3 +145,83 @@
 18/Apr/2021:00:49:19 169 [Calculator.java] [INFO] Calculator [addition result] - 0.0
 18/Apr/2021:00:49:19 170 [Calculator.java] [INFO] Calculator [subtraction called] - 3.0, 3.0
 18/Apr/2021:00:49:19 170 [Calculator.java] [INFO] Calculator [subtraction result] - 0.0
+18/Apr/2021:11:44:32 012 [Calculator.java] [INFO] Calculator [division called] - 4.0, 2.0
+18/Apr/2021:11:44:32 015 [Calculator.java] [INFO] Calculator [division result] - 2.0
+18/Apr/2021:11:44:32 016 [Calculator.java] [INFO] Calculator [multiplication called] - 3.0, -3.0
+18/Apr/2021:11:44:32 016 [Calculator.java] [INFO] Calculator [multiplication result] - -9.0
+18/Apr/2021:11:44:32 017 [Calculator.java] [INFO] Calculator [addition called] - 2.0, -2.0
+18/Apr/2021:11:44:32 017 [Calculator.java] [INFO] Calculator [addition result] - 0.0
+18/Apr/2021:11:44:32 018 [Calculator.java] [INFO] Calculator [multiplication called] - 3.0, 3.0
+18/Apr/2021:11:44:32 018 [Calculator.java] [INFO] Calculator [multiplication result] - 9.0
+18/Apr/2021:11:44:32 019 [Calculator.java] [INFO] Calculator [multiplication called] - 3.0, 0.0
+18/Apr/2021:11:44:32 019 [Calculator.java] [INFO] Calculator [multiplication result] - 0.0
+18/Apr/2021:11:44:32 019 [Calculator.java] [INFO] Calculator [addition called] - 2.0, 3.0
+18/Apr/2021:11:44:32 020 [Calculator.java] [INFO] Calculator [addition result] - 5.0
+18/Apr/2021:11:44:32 020 [Calculator.java] [INFO] Calculator [multiplication called] - 3.0, 0.0
+18/Apr/2021:11:44:32 020 [Calculator.java] [INFO] Calculator [multiplication result] - 0.0
+18/Apr/2021:11:44:32 021 [Calculator.java] [INFO] Calculator [multiplication called] - 3.0, 3.0
+18/Apr/2021:11:44:32 021 [Calculator.java] [INFO] Calculator [multiplication result] - 9.0
+18/Apr/2021:11:44:32 022 [Calculator.java] [INFO] Calculator [subtraction called] - 3.0, -3.0
+18/Apr/2021:11:44:32 022 [Calculator.java] [INFO] Calculator [subtraction result] - 6.0
+18/Apr/2021:11:44:32 022 [Calculator.java] [INFO] Calculator [subtraction called] - 3.0, 2.0
+18/Apr/2021:11:44:32 022 [Calculator.java] [INFO] Calculator [subtraction result] - 1.0
+18/Apr/2021:11:44:32 023 [Calculator.java] [INFO] Calculator [addition called] - 2.0, 0.0
+18/Apr/2021:11:44:32 023 [Calculator.java] [INFO] Calculator [addition result] - 2.0
+18/Apr/2021:11:44:32 023 [Calculator.java] [INFO] Calculator [multiplication called] - 3.0, -3.0
+18/Apr/2021:11:44:32 024 [Calculator.java] [INFO] Calculator [multiplication result] - -9.0
+18/Apr/2021:11:44:32 024 [Calculator.java] [INFO] Calculator [addition called] - 2.0, 0.0
+18/Apr/2021:11:44:32 024 [Calculator.java] [INFO] Calculator [addition result] - 2.0
+18/Apr/2021:11:44:32 025 [Calculator.java] [INFO] Calculator [division called] - 4.0, 2.0
+18/Apr/2021:11:44:32 025 [Calculator.java] [INFO] Calculator [division result] - 2.0
+18/Apr/2021:11:44:32 025 [Calculator.java] [INFO] Calculator [subtraction called] - 3.0, 3.0
+18/Apr/2021:11:44:32 026 [Calculator.java] [INFO] Calculator [subtraction result] - 0.0
+18/Apr/2021:11:44:32 026 [Calculator.java] [INFO] Calculator [addition called] - 2.0, 3.0
+18/Apr/2021:11:44:32 027 [Calculator.java] [INFO] Calculator [addition result] - 5.0
+18/Apr/2021:11:44:32 027 [Calculator.java] [INFO] Calculator [subtraction called] - 3.0, -3.0
+18/Apr/2021:11:44:32 027 [Calculator.java] [INFO] Calculator [subtraction result] - 6.0
+18/Apr/2021:11:44:32 028 [Calculator.java] [INFO] Calculator [subtraction called] - 3.0, 2.0
+18/Apr/2021:11:44:32 028 [Calculator.java] [INFO] Calculator [subtraction result] - 1.0
+18/Apr/2021:11:44:32 028 [Calculator.java] [INFO] Calculator [addition called] - 2.0, -2.0
+18/Apr/2021:11:44:32 029 [Calculator.java] [INFO] Calculator [addition result] - 0.0
+18/Apr/2021:11:44:32 029 [Calculator.java] [INFO] Calculator [subtraction called] - 3.0, 3.0
+18/Apr/2021:11:44:32 029 [Calculator.java] [INFO] Calculator [subtraction result] - 0.0
+18/Apr/2021:11:52:51 873 [Calculator.java] [INFO] Calculator [division called] - 4.0, 2.0
+18/Apr/2021:11:52:51 876 [Calculator.java] [INFO] Calculator [division result] - 2.0
+18/Apr/2021:11:52:51 877 [Calculator.java] [INFO] Calculator [multiplication called] - 3.0, -3.0
+18/Apr/2021:11:52:51 877 [Calculator.java] [INFO] Calculator [multiplication result] - -9.0
+18/Apr/2021:11:52:51 877 [Calculator.java] [INFO] Calculator [addition called] - 2.0, -2.0
+18/Apr/2021:11:52:51 878 [Calculator.java] [INFO] Calculator [addition result] - 0.0
+18/Apr/2021:11:52:51 878 [Calculator.java] [INFO] Calculator [multiplication called] - 3.0, 3.0
+18/Apr/2021:11:52:51 879 [Calculator.java] [INFO] Calculator [multiplication result] - 9.0
+18/Apr/2021:11:52:51 879 [Calculator.java] [INFO] Calculator [multiplication called] - 3.0, 0.0
+18/Apr/2021:11:52:51 879 [Calculator.java] [INFO] Calculator [multiplication result] - 0.0
+18/Apr/2021:11:52:51 880 [Calculator.java] [INFO] Calculator [addition called] - 2.0, 3.0
+18/Apr/2021:11:52:51 880 [Calculator.java] [INFO] Calculator [addition result] - 5.0
+18/Apr/2021:11:52:51 881 [Calculator.java] [INFO] Calculator [multiplication called] - 3.0, 0.0
+18/Apr/2021:11:52:51 881 [Calculator.java] [INFO] Calculator [multiplication result] - 0.0
+18/Apr/2021:11:52:51 882 [Calculator.java] [INFO] Calculator [multiplication called] - 3.0, 3.0
+18/Apr/2021:11:52:51 882 [Calculator.java] [INFO] Calculator [multiplication result] - 9.0
+18/Apr/2021:11:52:51 883 [Calculator.java] [INFO] Calculator [subtraction called] - 3.0, -3.0
+18/Apr/2021:11:52:51 883 [Calculator.java] [INFO] Calculator [subtraction result] - 6.0
+18/Apr/2021:11:52:51 883 [Calculator.java] [INFO] Calculator [subtraction called] - 3.0, 2.0
+18/Apr/2021:11:52:51 884 [Calculator.java] [INFO] Calculator [subtraction result] - 1.0
+18/Apr/2021:11:52:51 884 [Calculator.java] [INFO] Calculator [addition called] - 2.0, 0.0
+18/Apr/2021:11:52:51 884 [Calculator.java] [INFO] Calculator [addition result] - 2.0
+18/Apr/2021:11:52:51 885 [Calculator.java] [INFO] Calculator [multiplication called] - 3.0, -3.0
+18/Apr/2021:11:52:51 885 [Calculator.java] [INFO] Calculator [multiplication result] - -9.0
+18/Apr/2021:11:52:51 885 [Calculator.java] [INFO] Calculator [addition called] - 2.0, 0.0
+18/Apr/2021:11:52:51 886 [Calculator.java] [INFO] Calculator [addition result] - 2.0
+18/Apr/2021:11:52:51 886 [Calculator.java] [INFO] Calculator [division called] - 4.0, 2.0
+18/Apr/2021:11:52:51 886 [Calculator.java] [INFO] Calculator [division result] - 2.0
+18/Apr/2021:11:52:51 887 [Calculator.java] [INFO] Calculator [subtraction called] - 3.0, 3.0
+18/Apr/2021:11:52:51 887 [Calculator.java] [INFO] Calculator [subtraction result] - 0.0
+18/Apr/2021:11:52:51 887 [Calculator.java] [INFO] Calculator [addition called] - 2.0, 3.0
+18/Apr/2021:11:52:51 888 [Calculator.java] [INFO] Calculator [addition result] - 5.0
+18/Apr/2021:11:52:51 888 [Calculator.java] [INFO] Calculator [subtraction called] - 3.0, -3.0
+18/Apr/2021:11:52:51 888 [Calculator.java] [INFO] Calculator [subtraction result] - 6.0
+18/Apr/2021:11:52:51 889 [Calculator.java] [INFO] Calculator [subtraction called] - 3.0, 2.0
+18/Apr/2021:11:52:51 889 [Calculator.java] [INFO] Calculator [subtraction result] - 1.0
+18/Apr/2021:11:52:51 890 [Calculator.java] [INFO] Calculator [addition called] - 2.0, -2.0
+18/Apr/2021:11:52:51 890 [Calculator.java] [INFO] Calculator [addition result] - 0.0
+18/Apr/2021:11:52:51 890 [Calculator.java] [INFO] Calculator [subtraction called] - 3.0, 3.0
+18/Apr/2021:11:52:51 890 [Calculator.java] [INFO] Calculator [subtraction result] - 0.0
