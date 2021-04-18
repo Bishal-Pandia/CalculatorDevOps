@@ -24,7 +24,7 @@
 						<configuration>
 							<archive>
 								<manifest>
-									<mainClass>bishalpandia.Calculator.Calculator</mainClass>
+									<mainClass>Calculator</mainClass>
 								</manifest>
 							</archive>
 							<descriptorRefs>
@@ -34,6 +34,15 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+            <artifactId>maven-jar-plugin</artifactId>
+            <executions>
+                <execution>
+                    <id>default-jar</id>
+                    <phase>none</phase>
+                </execution>
+            </executions>
+        </plugin>
 		</plugins>
 	</build>
 	<dependencies>

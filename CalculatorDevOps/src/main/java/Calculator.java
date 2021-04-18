@@ -24,7 +24,7 @@ public class Calculator {
 			int choice;
 			double res;
 			try {
-				System.out.print("Enter your choice in numerals!!");
+				System.out.print("Enter your choice in numerals : ");
 				choice = sc.nextInt();
 			}
 			catch (InputMismatchException error) {
