@@ -1,5 +1,5 @@
 FROM openjdk:8
 MAINTAINER bishalpandia bishalpandia@gmail.com
-COPY ./target/CalculatorDevOps-0.0.1-SNAPSHOT.jar ./
+COPY ./target/CalculatorDevOps-0.0.1-SNAPSHOT-jar-with-dependencies.jar ./
 WORKDIR ./
-CMD ["java", "-jar", "CalculatorDevOps-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "CalculatorDevOps-0.0.1-SNAPSHOT-jar-with-dependencies.jar"]
